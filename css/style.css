@@ -1,0 +1,102 @@
+*{
+	margin:0;
+	padding:0;
+	transition: all .1s ease-in;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html,body {
+min-height: 100%;
+}
+html {
+	height: 100%;
+}
+body {
+background: #3399CC;
+border: 20px solid #2B81AC;
+
+color: white;
+font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+main {
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+h1 {
+	font-size: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+ul {
+font-size: 0;
+border: 2px solid white;
+
+}
+li {
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 2px solid white;
+	box-sizing: border-box;
+
+}
+.city1 {
+	width: 50%;
+	background: #3399CC;
+}
+.city2 {
+	width: 25%;
+	background: #33CCCC;
+}
+.city3 {
+	width: 25%;
+	background: #996699;
+}
+.city4{
+	width: 25%;
+	background: #C24747;
+}
+.city5{
+	width: 25%;
+	background: #E2674A;
+}
+.city6{
+	width: 25%;
+	background: #FFCC66;
+}
+.city7{
+	width: 25%;
+	background: #99CC99;
+}
+.city8{
+	width: 25%;
+	background: #669999;
+}
+.city9 {
+	width: 50%;
+	background: #CC6699;
+}
+.city10 {
+	width: 25%;
+	background: #339966;
+}
+.city11 {
+	width: 100%;
+	background: #666699;
+}
+ul:hover li:not(:hover) {
+	opacity: 0.3;
+}
+span {
+	display: block;
+	padding-top: 5px;
+	font-weight: normal;
+}
+p {
+	margin-top: 20px;
+	font-size: 18px;
+}
